@@ -5,6 +5,8 @@ using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Basket.Application.GrpcService;
+using Discount.Grpc.Protos;
 
 namespace Basket.API
 {
@@ -29,6 +31,9 @@ namespace Basket.API
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<CreateShoppingCartHandler>());
             services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<DiscountGrpcService>();
+            services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(
+                o => o.Address = new Uri(configuration["GrpcSettings:DiscountUrl"]));
 
             services.AddSwaggerGen(options =>
             {

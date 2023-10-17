@@ -29,13 +29,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{918CB107-B37C-4A71-8E9B-43ED00BBE76B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{0EE8372A-A045-4932-AB01-20DEB4AA9949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{0EE8372A-A045-4932-AB01-20DEB4AA9949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Core", "Services\Discount\Discount.Core\Discount.Core.csproj", "{93DBE704-919F-467E-9B78-B341A5545430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Core", "Services\Discount\Discount.Core\Discount.Core.csproj", "{93DBE704-919F-467E-9B78-B341A5545430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Application", "Services\Discount\Discount.Application\Discount.Application.csproj", "{5705258A-F82F-4398-A7C2-73272EFB81FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Application", "Services\Discount\Discount.Application\Discount.Application.csproj", "{5705258A-F82F-4398-A7C2-73272EFB81FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Infrastructure", "Services\Discount\Discount.Infrastructure\Discount.Infrastructure.csproj", "{249AE28F-17D0-476F-89C2-890B1E5E6F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Infrastructure", "Services\Discount\Discount.Infrastructure\Discount.Infrastructure.csproj", "{249AE28F-17D0-476F-89C2-890B1E5E6F39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19D92CA8-AB2A-479A-ADF5-CC7BE1BBD80A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{16A4DC0A-ED8A-46A8-B3A2-39F4F7650827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Core", "Services\Ordering\Ordering.Core\Ordering.Core.csproj", "{725CB5ED-BA43-474D-92E2-DC4BD486C615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{01F80460-03C4-4A0E-BFA1-A604CDFECA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{B1162C5B-107C-495D-94D3-246171855AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{DFDBC0A2-126C-473D-8B7E-9ACC25C3CF39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +107,22 @@ Global
 		{249AE28F-17D0-476F-89C2-890B1E5E6F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249AE28F-17D0-476F-89C2-890B1E5E6F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249AE28F-17D0-476F-89C2-890B1E5E6F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725CB5ED-BA43-474D-92E2-DC4BD486C615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725CB5ED-BA43-474D-92E2-DC4BD486C615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725CB5ED-BA43-474D-92E2-DC4BD486C615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725CB5ED-BA43-474D-92E2-DC4BD486C615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F80460-03C4-4A0E-BFA1-A604CDFECA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F80460-03C4-4A0E-BFA1-A604CDFECA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F80460-03C4-4A0E-BFA1-A604CDFECA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F80460-03C4-4A0E-BFA1-A604CDFECA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1162C5B-107C-495D-94D3-246171855AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1162C5B-107C-495D-94D3-246171855AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1162C5B-107C-495D-94D3-246171855AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1162C5B-107C-495D-94D3-246171855AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDBC0A2-126C-473D-8B7E-9ACC25C3CF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDBC0A2-126C-473D-8B7E-9ACC25C3CF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDBC0A2-126C-473D-8B7E-9ACC25C3CF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDBC0A2-126C-473D-8B7E-9ACC25C3CF39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +143,11 @@ Global
 		{93DBE704-919F-467E-9B78-B341A5545430} = {918CB107-B37C-4A71-8E9B-43ED00BBE76B}
 		{5705258A-F82F-4398-A7C2-73272EFB81FB} = {918CB107-B37C-4A71-8E9B-43ED00BBE76B}
 		{249AE28F-17D0-476F-89C2-890B1E5E6F39} = {918CB107-B37C-4A71-8E9B-43ED00BBE76B}
+		{16A4DC0A-ED8A-46A8-B3A2-39F4F7650827} = {1FB39629-ED11-454D-988D-163541BBA79E}
+		{725CB5ED-BA43-474D-92E2-DC4BD486C615} = {16A4DC0A-ED8A-46A8-B3A2-39F4F7650827}
+		{01F80460-03C4-4A0E-BFA1-A604CDFECA30} = {16A4DC0A-ED8A-46A8-B3A2-39F4F7650827}
+		{B1162C5B-107C-495D-94D3-246171855AEA} = {16A4DC0A-ED8A-46A8-B3A2-39F4F7650827}
+		{DFDBC0A2-126C-473D-8B7E-9ACC25C3CF39} = {16A4DC0A-ED8A-46A8-B3A2-39F4F7650827}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0124337-83EA-40F2-97E3-18EF02F19FDD}
